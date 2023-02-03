@@ -23,6 +23,9 @@
 ## Instalar las dependencias de la aplicación 
 #### pip3 install -r requirements.txt 
 
+## Instalar el motor de bases de datos PostgreSQL
+#### docker-compose up -d
+
 ## Crear tablas de la base de datos 
 #### docker exec -i postgres pg_restore -d crud -U postgres < crud.sql
 
