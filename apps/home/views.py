@@ -106,7 +106,7 @@ def connection():
     hostname = 'localhost'
     database = 'crud'
     username = 'postgres'
-    pwd = 'admin'
+    pwd = 'root'
     port_id = 5432
 
     conn = None
