@@ -11,7 +11,7 @@
 #### sudo curl -L "https://github.com/docker/compose/releases/download/1.26.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 #### sudo chmod +x /usr/local/bin/docker-compose
 
-## instalar python 3
+#instalar python 3
 #### sudo apt-get update
 #### sudo apt-get install python3.6
 
@@ -22,9 +22,6 @@
 
 ## Instalar las dependencias de la aplicación 
 #### pip3 install -r requirements.txt 
-
-## Instalar el motor de base de datos postgreSQL
-#### docker-compose up -d 
 
 ## Crear tablas de la base de datos 
 #### docker exec -i postgres pg_restore -d crud -U postgres < crud.sql
